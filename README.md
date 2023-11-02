@@ -18,6 +18,9 @@ You are a wizard and your Kingdom was invaded by monsters - so you have to free 
 - [ ] Health/Mana System
 - [ ] Exp Level System
 - [ ] Different Spells
+- [ ] Find Backgrounds for Menus
+- [ ] Make Level Icons
+- [ ] Level Names
 
 ### Nice to Have features
 
