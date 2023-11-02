@@ -12,6 +12,17 @@ You are a wizard and your Kingdom was invaded by monsters - so you have to free 
 
 ### Core functionality
 
+- [ ] Multiple Levels
+- [ ] From Levels you beat you recapture a spell book or parts for you library
+- [ ] __Good sounds__
+- [ ] Health/Mana System
+- [ ] Exp Level System
+- [ ] Different Spells
+
 ### Nice to Have features
 
+- [ ] Different Elements to choose from when you begin to play
+
 ### Ideas if I continue after Jam
+
+- [ ] Multiplayer
