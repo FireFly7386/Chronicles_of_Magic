@@ -8,7 +8,7 @@ My game for GitHub GameOff 2023
 
 You are a wizard and your Kingdom was invaded by monsters - so you have to free it. To do that you must *__scale__* your library to get more places for spell books and learn 'em.
 
-## Ideas
+## TODO
 
 ### Core functionality
 
@@ -23,6 +23,7 @@ You are a wizard and your Kingdom was invaded by monsters - so you have to free 
 
 - [ ] Different Elements to choose from when you begin to play
 - [ ] Something like the monsters invading your Kingdom when you first start the game
+- [ ] Animation when clicking Play
 
 ### Ideas if I continue after Jam
 
