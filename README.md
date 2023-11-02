@@ -21,12 +21,14 @@ You are a wizard and your Kingdom was invaded by monsters - so you have to free 
 - [ ] Find Backgrounds for Menus
 - [ ] Make Level Icons
 - [ ] Level Names
+- [ ] Spell UI
 
 ### Nice to Have features
 
 - [ ] Different Elements to choose from when you begin to play
 - [ ] Something like the monsters invading your Kingdom when you first start the game
 - [ ] Animation when clicking Play
+- [ ] Smoother Camera Movement
 
 ### Ideas if I continue after Jam
 
