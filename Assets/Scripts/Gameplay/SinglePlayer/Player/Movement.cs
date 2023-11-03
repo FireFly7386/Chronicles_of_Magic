@@ -7,7 +7,7 @@ public class Movement : MonoBehaviour
     [HideInInspector]
     public bool canMove;
 
-    public float speedMultiplier = 0.1f;
+    public float speedMultiplier = 5f;
 
     float movementX;
     float movementY;
@@ -21,7 +21,7 @@ public class Movement : MonoBehaviour
         }
 
         Vector2 movement = new Vector2(movementX, movementY) * speedMultiplier;
-        transform.Translate(movement);
+        transform.Translate(movement * Time.deltaTime);
     }
 
     private void Awake()

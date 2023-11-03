@@ -9,9 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 451764379841587401}
-  - component: {fileID: 2807508576699801377}
   - component: {fileID: 4643761365848162714}
   - component: {fileID: 1794912532476020790}
+  - component: {fileID: 2807508576699801377}
+  - component: {fileID: 1133571062641384575}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -36,20 +37,6 @@ Transform:
   - {fileID: 6891734560219187203}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2807508576699801377
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 305843671351223033}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a194bfee23ad9d243ab2a8a4c91ae357, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canMove: 0
-  speedMultiplier: 0.1
 --- !u!50 &4643761365848162714
 Rigidbody2D:
   serializedVersion: 4
@@ -122,6 +109,34 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1127658, y: 1.8645407}
   m_EdgeRadius: 0
+--- !u!114 &2807508576699801377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305843671351223033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a194bfee23ad9d243ab2a8a4c91ae357, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canMove: 0
+  speedMultiplier: 5
+--- !u!114 &1133571062641384575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305843671351223033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f74e4202d5762ec439a2664c77cd88ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FireballSpell: {fileID: 6875944714469821607, guid: bdd430849e8d04047897bec2ecca6824, type: 3}
+  currentSpellID: 0
 --- !u!1 &2308758200940624809
 GameObject:
   m_ObjectHideFlags: 0
