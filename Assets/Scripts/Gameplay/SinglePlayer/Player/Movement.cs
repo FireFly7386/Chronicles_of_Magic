@@ -24,9 +24,13 @@ public class Movement : MonoBehaviour
         transform.Translate(movement);
     }
 
-    void Update()
+    private void Awake()
+    {
+        canMove = true;
+    }
+
+    void FixedUpdate()
     {
         Move();
-        canMove = true;
     }
 }

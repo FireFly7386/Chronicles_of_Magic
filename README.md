@@ -25,9 +25,11 @@ You are a wizard and your Kingdom was invaded by monsters - so you have to free 
 
 ### Nice to Have features
 
+- [ ] Different Colors of Player Skin
 - [ ] Something like the monsters invading your Kingdom when you first start the game
 - [ ] Animation when clicking Play
 - [ ] Smoother Camera Movement
+- [ ] Texture Remake
 
 ### Ideas if I continue after Jam
 
