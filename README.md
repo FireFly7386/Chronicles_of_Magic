@@ -10,7 +10,7 @@ You are a wizard and your Kingdom was invaded by monsters - so you have to free 
 
 ### Level 1
 
-You found shelter in the Libraries Basement and now try to fight you way out.
+You found shelter in the Libraries Basement and now try to fight your way out.
 
 ## TODO
 
