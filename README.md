@@ -8,6 +8,10 @@ My game for GitHub GameOff 2023
 
 You are a wizard and your Kingdom was invaded by monsters - so you have to free it. To do that you must *__scale__* your library to get more places for spell books and learn 'em.
 
+### Level 1
+
+You found shelter in the Libraries Basement and now try to fight you way out.
+
 ## TODO
 
 ### Core functionality
@@ -24,8 +28,8 @@ You are a wizard and your Kingdom was invaded by monsters - so you have to free 
 - [ ] Level Names
 - [ ] Spell UI
 
-### Nice to Have features
-
+### Features if I have spare Time
+- [ ] Add Loading Screens
 - [ ] Different Colors of Player Skin
 - [ ] Something like the monsters invading your Kingdom when you first start the game
 - [ ] Animation when clicking Play
