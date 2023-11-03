@@ -7,7 +7,7 @@ public class Movement : MonoBehaviour
     [HideInInspector]
     public bool canMove;
 
-    public float speedMultiplier = 0.05f;
+    public float speedMultiplier = 0.1f;
 
     float movementX;
     float movementY;
