@@ -12,6 +12,7 @@ You are a wizard and your Kingdom was invaded by monsters - so you have to free 
 
 ### Core functionality
 
+- [ ] Different Skin for walking in other direction
 - [ ] Multiple Levels
 - [ ] From Levels you beat you recapture a spell book or parts for you library
 - [ ] __Good sounds__
