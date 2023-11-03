@@ -25,7 +25,6 @@ You are a wizard and your Kingdom was invaded by monsters - so you have to free 
 
 ### Nice to Have features
 
-- [ ] Different Elements to choose from when you begin to play
 - [ ] Something like the monsters invading your Kingdom when you first start the game
 - [ ] Animation when clicking Play
 - [ ] Smoother Camera Movement
