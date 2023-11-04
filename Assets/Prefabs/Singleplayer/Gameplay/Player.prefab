@@ -135,6 +135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f74e4202d5762ec439a2664c77cd88ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerCam: {fileID: 6739678693868382838}
   FireballSpell: {fileID: 6875944714469821607, guid: bdd430849e8d04047897bec2ecca6824, type: 3}
   currentSpellID: 0
 --- !u!1 &2308758200940624809
@@ -149,7 +150,7 @@ GameObject:
   - component: {fileID: 9117425628928786055}
   m_Layer: 7
   m_Name: PlayerSkin
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -234,7 +235,7 @@ GameObject:
   - component: {fileID: 439137016383350053}
   m_Layer: 7
   m_Name: Camera
-  m_TagString: MainCamera
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

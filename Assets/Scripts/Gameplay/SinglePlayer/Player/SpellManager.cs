@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class SpellManager : MonoBehaviour
 {
+    // Camera
+    public Camera playerCam;
+
     // Spell Prefabs
     public GameObject FireballSpell;
 
@@ -22,7 +25,7 @@ public class SpellManager : MonoBehaviour
             GameObject fireball = Instantiate(FireballSpell);
             fireball.transform.position = transform.position;
 
-            Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector3 mousePosition = playerCam.ScreenToWorldPoint(Input.mousePosition);
 
             Vector2 direction = mousePosition - fireball.transform.position;
             float angle = Vector2.SignedAngle(Vector2.right, direction);

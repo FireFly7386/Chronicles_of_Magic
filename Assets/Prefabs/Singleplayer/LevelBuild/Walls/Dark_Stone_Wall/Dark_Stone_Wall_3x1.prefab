@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9221823137418023508}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Dark_Stone_Wall_3x1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
