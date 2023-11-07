@@ -4,6 +4,14 @@ using UnityEngine;
 
 public class SpellManager : MonoBehaviour
 {
+    //Fireball
+    [HideInInspector]
+    public bool FireballIsOnCooldown;
+    [HideInInspector]
+    public float FireballCooldown;
+
+    public float FireballManaCost;
+
     // Camera
     public Camera playerCam;
 
@@ -16,20 +24,28 @@ public class SpellManager : MonoBehaviour
     private void Awake()
     {
         currentSpellID = 1;
+        FireballIsOnCooldown = false;
     }
 
     void Update()
     {
+
+        //Fireball
         if (Input.GetButtonDown("Fire1"))
         {
-            GameObject fireball = Instantiate(FireballSpell);
-            fireball.transform.position = transform.position;
+            if (!FireballIsOnCooldown && GetComponent<StatManager>().hasEnoughMana(FireballManaCost))
+            {
+                GetComponent<StatManager>().costMana(FireballManaCost);
 
-            Vector3 mousePosition = playerCam.ScreenToWorldPoint(Input.mousePosition);
+                GameObject fireball = Instantiate(FireballSpell);
+                fireball.transform.position = transform.position;
 
-            Vector2 direction = mousePosition - fireball.transform.position;
-            float angle = Vector2.SignedAngle(Vector2.right, direction);
-            fireball.transform.eulerAngles = new Vector3(0, 0, angle);
+                Vector3 mousePosition = playerCam.ScreenToWorldPoint(Input.mousePosition);
+
+                Vector2 direction = mousePosition - fireball.transform.position;
+                float angle = Vector2.SignedAngle(Vector2.right, direction);
+                fireball.transform.eulerAngles = new Vector3(0, 0, angle);
+            }
         }
     }
 }

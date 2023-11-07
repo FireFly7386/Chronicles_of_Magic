@@ -20,6 +20,17 @@ public class StatManager : MonoBehaviour
     public float ManaMultiplier;
     public float Mana;
 
+    public bool hasEnoughMana(float cost)
+    {
+        bool isEnough = Mana >= cost;
+        return isEnough;
+    }
+
+    public void costMana(float cost)
+    {
+        Mana -= cost;
+    }
+
     void Update()
     {
         StartCoroutine(regenHealth());
