@@ -191,6 +191,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &127723767
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 127723768}
+  m_Layer: 0
+  m_Name: Spawnpoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &127723768
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127723767}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.67, y: -0.13125494, z: 0.99127924}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &232564525
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -361,6 +392,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayUI
       objectReference: {fileID: 0}
+    - target: {fileID: 6591724323010977021, guid: b4da64b43c294274fb41735723547338, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -463,9 +498,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7250775901778108339, guid: 629e743f0a73a524f9cd4fb1f39f19c4, type: 3}
+      propertyPath: PlayUI
+      value: 
+      objectReference: {fileID: 1367750915}
+    - target: {fileID: 7250775901778108339, guid: 629e743f0a73a524f9cd4fb1f39f19c4, type: 3}
       propertyPath: manaText
       value: 
       objectReference: {fileID: 566307563}
+    - target: {fileID: 7250775901778108339, guid: 629e743f0a73a524f9cd4fb1f39f19c4, type: 3}
+      propertyPath: SpawnPoint
+      value: 
+      objectReference: {fileID: 127723767}
     - target: {fileID: 7250775901778108339, guid: 629e743f0a73a524f9cd4fb1f39f19c4, type: 3}
       propertyPath: healthText
       value: 
@@ -483,6 +526,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 629e743f0a73a524f9cd4fb1f39f19c4, type: 3}
+--- !u!1 &1367750915 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6591724323010977021, guid: b4da64b43c294274fb41735723547338, type: 3}
+  m_PrefabInstance: {fileID: 566307562}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1479476302
 GameObject:
   m_ObjectHideFlags: 0
@@ -670,6 +718,7 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 127723768}
   - {fileID: 1198465620}
   - {fileID: 566307562}
   - {fileID: 3595348301604764395}

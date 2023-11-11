@@ -18,6 +18,10 @@ public class Movement : MonoBehaviour
         {
             movementX = Input.GetAxis("Horizontal");
             movementY = Input.GetAxis("Vertical");
+        }else
+        {
+            movementX = 0;
+            movementY = 0;
         }
 
         Vector2 movement = new Vector2(movementX, movementY) * speedMultiplier;
