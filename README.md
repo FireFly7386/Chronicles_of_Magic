@@ -36,6 +36,6 @@ You found shelter in the Libraries Basement and now try to fight your way out.
 - [ ] Smoother Camera Movement
 - [ ] Texture Remake
 
-### Ideas if I continue after Jam
 
-- [ ] Multiplayer
+## Links
+Pathfinding Lib: https://assetstore.unity.com/packages/tools/behavior-ai/ultimate-a-pathfinding-solution-224082
