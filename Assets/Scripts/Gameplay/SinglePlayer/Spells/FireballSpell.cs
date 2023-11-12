@@ -6,6 +6,7 @@ public class FireballSpell : MonoBehaviour
 {
     public GameObject fireballExplosion;
     public float maxLifetime;
+    public float damage;
 
     float speed = 20f;
     bool moving;
@@ -28,6 +29,16 @@ public class FireballSpell : MonoBehaviour
             moving = false;
             GameObject fireballExplosionObject = Instantiate(fireballExplosion);
             fireballExplosionObject.transform.position = transform.position;
+            Destroy(fireballExplosionObject, 1f);
+            Destroy(gameObject);
+        }
+
+        if (LayerMask.NameToLayer("Enemie") == collision.gameObject.layer)
+        {
+            moving = false;
+            GameObject fireballExplosionObject = Instantiate(fireballExplosion);
+            fireballExplosionObject.transform.position = transform.position;
+            collision.gameObject.GetComponent<Enemy>().damage(damage);
             Destroy(fireballExplosionObject, 1f);
             Destroy(gameObject);
         }

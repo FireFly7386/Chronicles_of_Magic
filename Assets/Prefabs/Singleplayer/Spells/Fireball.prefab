@@ -101,6 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fireballExplosion: {fileID: 9015969756046433175, guid: f6f9da09b0273e242b1765ef799663a3, type: 3}
   maxLifetime: 0.4
+  damage: 10
 --- !u!61 &-142740444412236009
 BoxCollider2D:
   m_ObjectHideFlags: 0
