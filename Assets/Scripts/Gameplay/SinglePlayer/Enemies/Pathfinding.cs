@@ -6,7 +6,7 @@ using Aoiti.Pathfinding;
 public class Pathfinding : MonoBehaviour
 {
     float gridSize = 0.5f;
-    [SerializeField] float speed = 0.5f;
+    [SerializeField] float speed = 10f;
 
     Pathfinder<Vector2> pathfinder;
     [SerializeField] LayerMask obstacles;
@@ -32,8 +32,8 @@ public class Pathfinding : MonoBehaviour
             if (pathLeftToGo.Count > 0)
             {
                 Vector3 dir = (Vector3)pathLeftToGo[0] - transform.position;
-                transform.position += dir.normalized * speed;
-                if (((Vector2)transform.position - pathLeftToGo[0]).sqrMagnitude < speed * speed)
+                transform.position += dir.normalized * speed * Time.deltaTime;
+                if (((Vector2)transform.position - pathLeftToGo[0]).sqrMagnitude < speed * speed * Time.deltaTime * Time.deltaTime)
                 {
                     transform.position = pathLeftToGo[0];
                     pathLeftToGo.RemoveAt(0);
