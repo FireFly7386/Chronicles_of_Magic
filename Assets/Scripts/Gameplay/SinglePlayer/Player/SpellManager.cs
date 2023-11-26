@@ -31,7 +31,7 @@ public class SpellManager : MonoBehaviour
     {
 
         //Fireball
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             if (!FireballIsOnCooldown && GetComponent<StatManager>().hasEnoughMana(FireballManaCost))
             {

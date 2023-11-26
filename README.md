@@ -12,30 +12,6 @@ You are a wizard and your Kingdom was invaded by monsters - so you have to free 
 
 You found shelter in the Libraries Basement and now try to fight your way out.
 
-## TODO
-
-### Core functionality
-
-- [ ] Different Skin for walking in other direction
-- [ ] Multiple Levels
-- [ ] From Levels you beat you recapture a spell book or parts for you library
-- [ ] __Good sounds__
-- [ ] Health/Mana System
-- [ ] Exp Level System
-- [ ] Different Spells
-- [ ] Find Backgrounds for Menus
-- [ ] Make Level Icons
-- [ ] Level Names
-- [ ] Spell UI
-
-### Features if I have spare Time
-- [ ] Add Loading Screens
-- [ ] Different Colors of Player Skin
-- [ ] Something like the monsters invading your Kingdom when you first start the game
-- [ ] Animation when clicking Play
-- [ ] Smoother Camera Movement
-- [ ] Texture Remake
-
-
 ## Links
 Pathfinding Lib: https://assetstore.unity.com/packages/tools/behavior-ai/ultimate-a-pathfinding-solution-224082
+LVL 1 Music: https://pixabay.com/de/music/szenen-aufbauen-the-time-is-upon-us-127798/
